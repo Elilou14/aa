@@ -99,7 +99,8 @@ date +"%d %B %Y" | sed 's/January/janvier/;s/February/février/;s/March/mars/;s/
 4. Sauvegarde le fichier en tapant "Ctrl + O" puis "Enter", puis quitte l'éditeur de texte en tapant "Ctrl + X".
 5. Tape "chmod +x today_french.sh" pour rendre le script exécutable.
 6. Tape "./today_french.sh" pour exécuter le script et afficher la date en français dans le format demandé.
-```## Color Reference
+```
+## Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -121,6 +122,7 @@ date +"%d %B %Y" | sed 's/January/janvier/;s/February/février/;s/March/mars/;s/
 Eliel Hazan, Amanda Elfassy, Djibril Bathily, Illes Taouage, Dorian Vidal
 
 
-<img align="center" src="https://media.giphy.com/media/z5iCvo1oCbqt7ukMQs/giphy.gif">
-
+<p align="center">
+    <img align="center" src="https://media.giphy.com/media/z5iCvo1oCbqt7ukMQs/giphy.gif">
+</p>
 
