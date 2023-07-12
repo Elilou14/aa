@@ -1,14 +1,15 @@
 
 # MT4 Production Project
-## The objective of this project is a Master Tech Lead level challenge whose stages are:
-You must be able to log in as an admin, add a promo, and provide the precise link to the students of each promo. By clicking on this link, the student arrives on the page, creates and validates his account via a magic link (if the first time connected with the e-mail address) and launches the challenge. It is necessary to manage the case where the students already have an account. Students fill in the necessary contact details and launch the challenge. The challenge must be able to connect to its instance, perform tasks and validations, and return errors if necessary. Errors expose what is requested, or it is the error message transferred from the test instance so that students can properly read and correct the problem. Each time the challenge is relaunched, the score is reset to zero. There may be exceptions where one keeps the score for a particular task permanently. It must be possible to retrieve the scores of the promo in a visual table or to download them.
+## Défiez-vous avec notre application web amusante et engageante!
+Notre application web est simple à utiliser et permet aux étudiants de relever des défis de manière amusante et engageante. En tant qu'administrateur, vous pouvez facilement ajouter des défis et fournir un lien unique à chaque étudiant de la promo. Les étudiants peuvent ensuite cliquer sur le lien, créer un compte et lancer le défi.
 
-# Project Title
+Notre application prend en charge les étudiants qui ont déjà un compte et les nouveaux utilisateurs qui doivent valider leur compte. Les étudiants peuvent renseigner les informations nécessaires et lancer le défi. Notre application est conçue pour se connecter à l'instance de test, effectuer des tâches et des validations, et retourner des erreurs si nécessaire. Les erreurs exposent clairement ce qui est demandé ou fournissent des messages d'erreur transférés de l'instance de test pour que les étudiants puissent facilement lire et corriger le problème.
 
-A brief description of 
+Le score est remis à zéro à chaque fois qu'un défi est relancé, mais il peut y avoir des exceptions où le score est conservé pour une tâche particulière en permanence. Vous pouvez facilement récupérer les scores de la promo en tableau visuel ou les télécharger pour une analyse plus approfondie.
 
+Notre application est facile à utiliser et permet aux étudiants de relever des défis de manière amusante et engageante. Essayez-le dès maintenant et découvrez comment notre application peut aider vos étudiants à se préparer pour leur future carrière.
 
-## Liens du projet
+## Project links
 
 - Doc App -> https://mt4challenge.onrender.com/swagger/app
 - Doc Back-office -> https://mt4challenge.onrender.com/swagger/app
@@ -100,6 +101,10 @@ date +"%d %B %Y" | sed 's/January/janvier/;s/February/février/;s/March/mars/;s/
 5. Tape "chmod +x today_french.sh" pour rendre le script exécutable.
 6. Tape "./today_french.sh" pour exécuter le script et afficher la date en français dans le format demandé.
 ```
+## Database schema and implementation
+
+![Database schema and implementation](db_schema.png)
+
 ## Color Reference
 
 | Color             | Hex                                                                |
@@ -108,21 +113,56 @@ date +"%d %B %Y" | sed 's/January/janvier/;s/February/février/;s/March/mars/;s/
 | Font Background | ![#D4D4D4](https://via.placeholder.com/10/D4D4D4?text=+) #D4D4D4 |
 | Form Background| ![#32325A](https://via.placeholder.com/10/32325A?text=+) #32325A |
 
+## Logo Challenge
 
-![Logo challenge](logo_challenge_mt4.png)
-
-
-## Database schema and implementation
-
-
-![Database schema and implementation](<img src="./db_schema.png" />
-)
+<p align="left">
+  <img src="logo_challenge_mt4.png" alt="Logo challenge" width="400"/>
+</p>
 
 ## Authors
 Eliel Hazan, Amanda Elfassy, Djibril Bathily, Illes Taouage, Dorian Vidal
 
-
 <p align="center">
     <img align="center" src="https://media.giphy.com/media/z5iCvo1oCbqt7ukMQs/giphy.gif">
 </p>
+
+## Run Locally
+
+Voici les étapes pour installer un projet depuis GitHub avec toutes les dépendances nécessaires pour un projet en Vue.js, NodeJS, Typescript :
+
+1. Clonez le projet en utilisant la commande suivante dans votre terminal : 
+
+```bash
+git clone https://link-to-project
+```
+
+2. Accédez au répertoire du projet en utilisant la commande suivante :
+
+```bash
+cd my-project
+```
+
+3. Installez Node.js sur votre ordinateur en téléchargeant l'installateur sur le site officiel de Node.js.
+
+4. Installez npm (Node Package Manager) en utilisant la commande suivante dans votre terminal :
+
+```bash
+npm install npm@latest -g
+```
+
+5. Installez toutes les dépendances du projet en utilisant la commande suivante :
+
+```bash
+npm install
+```
+
+6. Démarrez le serveur en utilisant la commande suivante :
+
+```bash
+npm run start
+```
+
+7. Ouvrez votre navigateur et accédez à l'URL suivante : `http://localhost:3000` pour voir le projet en cours d'exécution.
+
+Ces étapes devraient vous permettre d'installer et d'exécuter un projet à partir de GitHub avec toutes les dépendances nécessaires pour un projet en Vue.js, NodeJS, Typescript.
 
