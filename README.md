@@ -9,6 +9,7 @@ Le score est remis à zéro à chaque fois qu'un défi est relancé, mais il peu
 
 Notre application est facile à utiliser et permet aux étudiants de relever des défis de manière amusante et engageante. Essayez-le dès maintenant et découvrez comment notre application peut aider vos étudiants à se préparer pour leur future carrière.
 
+Adoptez notre projet pour offrir à vos étudiants une expérience d'apprentissage unique et innovante!
 ## Project links
 
 - Doc App -> https://mt4challenge.onrender.com/swagger/app
