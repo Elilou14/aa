@@ -37,19 +37,19 @@ tâche fondamentale: créer un fichier <code>helloworld.txt</code>, le fichier d
 
 
 ## Answers
-## Réponse 1 : 
+## Answer 1 : 
 ```shell
 1. Ouvre l'interpréteur de commande.
 2. Tape "touch helloworld.txt" pour créer un fichier vide nommé helloworld.txt.
 3. Tape "echo 'Hello, World!' > helloworld.txt" pour écrire "Hello, World!" dans le fichier.
 ```
-## Réponse 2 : 
+## Answer 2 : 
 ```shell
 1. Ouvre l'interpréteur de commande.
 2. Tape "touch byebyeworld.txt" pour créer un fichier vide nommé byebyeworld.txt.
 3. Tape "echo 'Bye, Bye, World!' > byebyeworld.txt" pour écrire "Bye, Bye, World!" dans le fichier.
 ```
-## Réponse 3 : 
+## Answer 3 : 
 ```shell
 #!/bin/bash
 
@@ -89,7 +89,7 @@ echo "$count"
 }
 ```
 
-## Réponse 4 : 
+## Answer 4 : 
 ```shell
 1. Ouvre l'interpréteur de commande.
 2. Tape "nano today_french.sh" pour ouvrir l'éditeur de texte nano.
@@ -106,64 +106,44 @@ date +"%d %B %Y" | sed 's/January/janvier/;s/February/février/;s/March/mars/;s/
 
 ![Database schema and implementation](db_schema.png)
 
-## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Header Background | ![#1B1B38](https://via.placeholder.com/10/1B1B38?text=+) #1B1B38 |
-| Font Background | ![#D4D4D4](https://via.placeholder.com/10/D4D4D4?text=+) #D4D4D4 |
-| Form Background| ![#32325A](https://via.placeholder.com/10/32325A?text=+) #32325A |
-
-## Logo Challenge
-
-<p align="left">
-  <img src="logo_challenge_mt4.png" alt="Logo challenge" width="400"/>
-</p>
-
-## Authors
-Eliel Hazan, Amanda Elfassy, Djibril Bathily, Illes Taouage, Dorian Vidal
-
-<p align="center">
-    <img align="center" src="https://media.giphy.com/media/z5iCvo1oCbqt7ukMQs/giphy.gif">
-</p>
 
 ## Run Locally
 
 Voici les étapes pour installer un projet depuis GitHub avec toutes les dépendances nécessaires pour un projet en Vue.js, NodeJS, Typescript :
 
 1. Clonez le projet en utilisant la commande suivante dans votre terminal : 
-
-```bash
-git clone https://link-to-project
-```
+<kbd>
+ &nbsp;&nbsp; git clone https://link-to-project
+</kbd> <br><br>
 
 2. Accédez au répertoire du projet en utilisant la commande suivante :
-
-```bash
-cd my-project
-```
+<kbd>
+ &nbsp;&nbsp; cd my-project
+</kbd><br><br>
 
 3. Installez Node.js sur votre ordinateur en téléchargeant l'installateur sur le site officiel de Node.js.
 
 4. Installez npm (Node Package Manager) en utilisant la commande suivante dans votre terminal :
-
-```bash
-npm install npm@latest -g
-```
+<kbd>
+&nbsp;&nbsp;npm install npm@latest -g
+</kbd><br><br>
 
 5. Installez toutes les dépendances du projet en utilisant la commande suivante :
 
-```bash
-npm install
-```
+<kbd>
+&nbsp;&nbsp;npm install
+</kbd><br><br>
 
 6. Démarrez le serveur en utilisant la commande suivante :
-
-```bash
-npm run start
-```
+<kbd>
+&nbsp;&nbsp;npm run start
+</kbd><br><br>
 
 7. Ouvrez votre navigateur et accédez à l'URL suivante : `http://localhost:3000` pour voir le projet en cours d'exécution.
 
-Ces étapes devraient vous permettre d'installer et d'exécuter un projet à partir de GitHub avec toutes les dépendances nécessaires pour un projet en Vue.js, NodeJS, Typescript.
+Ces étapes devraient vous permettre d'installer et d'exécuter un projet à partir de GitHub avec toutes les dépendances nécessaires pour notre projet en Vue.js, NodeJS, Typescript.
+
+
+
 
